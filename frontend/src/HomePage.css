@@ -1,0 +1,36 @@
+.homepage-container {
+    text-align: center;
+  }
+  
+  .header h1 {
+    color: #123456; /* Escolha uma cor que combine com o tema */
+  }
+  
+  .main-content {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .info-section p {
+    font-size: 1.2em;
+  }
+  
+  .button-section .button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #456789; /* Uma cor que se destaque */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-section .button:hover {
+    background-color: #345678; /* Uma variação da cor para o hover */
+  }
+  
+  .footer {
+    margin-top: 40px;
+    color: grey;
+  }
+  

@@ -1,0 +1,43 @@
+.tickets-container {
+    text-align: center;
+  }
+  
+  .tickets-container .header h1 {
+    color: #123456;
+  }
+  
+  .tickets-container .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tickets-container .tickets-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .tickets-container .ticket-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tickets-container .validate-btn {
+    background-color: #456789;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .tickets-container .validate-btn:hover {
+    background-color: #345678;
+  }
+  

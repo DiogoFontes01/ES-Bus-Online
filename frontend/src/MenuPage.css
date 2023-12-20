@@ -1,0 +1,104 @@
+.menu-container {
+  text-align: center;
+}
+
+.menu-container .header h1 {
+  color: #123456;
+}
+
+.menu-container .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-container .search-section {
+  width: 60%; /* Ajuste a largura conforme necessário */
+  margin: auto;
+  /* Adicione quaisquer outros estilos específicos para a seção de busca */
+}
+
+.menu-container .viagens-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.menu-container .viagem-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex-basis: 50%; 
+  max-width: 800px;/* Para que ocupem quase metade da largura do contentor */
+  /* Adicione quaisquer outros estilos específicos para os cards de viagem */
+}
+
+.menu-container .select-button {
+  background-color: #456789;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.menu-container .select-button:hover {
+  background-color: #345678;
+}
+
+
+
+.viagem-card {
+  cursor: pointer; /* Indica que é clicável */
+}
+
+
+.footer {
+  margin-top: 30px;
+  color: grey;
+}
+
+
+.search-button {
+  background-color: #456789; /* Cor de destaque */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button:hover {
+  background-color: #345678;
+}
+
+.input-data {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60px; /* Ajuste para o tamanho desejado */
+}
+
+.date-input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espaçamento entre os campos */
+}

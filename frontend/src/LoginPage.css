@@ -1,0 +1,61 @@
+.loginpage-container {
+    text-align: center;
+  }
+  
+  .header h1 {
+    color: #123456; /* Personalize conforme necessário */
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; /* Altura mínima para centralizar verticalmente */
+  }
+  
+
+  .login-card {
+    background-color: #fff; /* Cor de fundo do card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para efeito 3D */
+    width: 400px; /* ou qualquer outra largura conforme necessário */
+    margin: auto;
+  }
+
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+  }
+  
+  .submit-button {
+    background-color: #456789; /* Cor de destaque */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #345678;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    color: grey;
+  }
+  
